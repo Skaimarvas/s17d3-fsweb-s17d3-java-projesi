@@ -1,13 +1,13 @@
-package com.example.ZooRestApi;
+package com.example.zoo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZooRestApiApplication {
+public class ZooApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZooRestApiApplication.class, args);
+		SpringApplication.run(ZooApplication.class, args);
 	}
 
 }
