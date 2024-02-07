@@ -1,12 +1,13 @@
 package com.example.zoo.entity;
 
 
-public class Koala {
-    private long id;
-    private String name;
-    private int weight;
-    private String gender;
-    private boolean isAggressive;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
+@AllArgsConstructor
+@Data
+public class Koala extends Animal {
+
+    private int sleepHour;
 
 }
